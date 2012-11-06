@@ -1,0 +1,48 @@
+# Project: FSRash
+# Makefile created by Dev-C++ 4.9.9.2
+
+CPP  = g++.exe
+CC   = gcc.exe
+WINDRES = windres.exe
+RES  = 
+OBJ  = main.o ../../Framework/Exception.o ../../Framework/FileSearch.o ../../Framework/md5.o ../../Framework/utf8.o ../../Framework/Util.o ../../Framework/Vector.o $(RES)
+LINKOBJ  = main.o ../../Framework/Exception.o ../../Framework/FileSearch.o ../../Framework/md5.o ../../Framework/utf8.o ../../Framework/Util.o ../../Framework/Vector.o $(RES)
+LIBS =  -L"z:/Dev-Cpp/lib" -lwsock32  
+INCS =  -I"z:/Dev-Cpp/include"  -I"Z:/desenv/New/Framework" 
+CXXINCS =  -I"z:/Dev-Cpp/lib/gcc/mingw32/3.4.2/include"  -I"z:/Dev-Cpp/include/c++/3.4.2/backward"  -I"z:/Dev-Cpp/include/c++/3.4.2/mingw32"  -I"z:/Dev-Cpp/include/c++/3.4.2"  -I"z:/Dev-Cpp/include"  -I"Z:/desenv/New/Framework" 
+BIN  = FSRash.exe
+CXXFLAGS = $(CXXINCS) -DWIN32   -ansi
+CFLAGS = $(INCS) -DWIN32   -ansi
+RM = rm -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before FSRash.exe all-after
+
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o "FSRash.exe" $(LIBS)
+
+main.o: main.cpp
+	$(CPP) -c main.cpp -o main.o $(CXXFLAGS)
+
+../../Framework/Exception.o: ../../Framework/Exception.cpp
+	$(CPP) -c ../../Framework/Exception.cpp -o ../../Framework/Exception.o $(CXXFLAGS)
+
+../../Framework/FileSearch.o: ../../Framework/FileSearch.cpp
+	$(CPP) -c ../../Framework/FileSearch.cpp -o ../../Framework/FileSearch.o $(CXXFLAGS)
+
+../../Framework/md5.o: ../../Framework/md5.cpp
+	$(CPP) -c ../../Framework/md5.cpp -o ../../Framework/md5.o $(CXXFLAGS)
+
+../../Framework/utf8.o: ../../Framework/utf8.c
+	$(CPP) -c ../../Framework/utf8.c -o ../../Framework/utf8.o $(CXXFLAGS)
+
+../../Framework/Util.o: ../../Framework/Util.cpp
+	$(CPP) -c ../../Framework/Util.cpp -o ../../Framework/Util.o $(CXXFLAGS)
+
+../../Framework/Vector.o: ../../Framework/Vector.cpp
+	$(CPP) -c ../../Framework/Vector.cpp -o ../../Framework/Vector.o $(CXXFLAGS)

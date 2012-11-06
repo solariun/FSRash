@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DD76F650486A84900D96B5E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* main.cpp */; settings = {ATTRIBUTES = (); }; };
+		8DD76F6A0486A84900D96B5E /* FSRash.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6859E8B029090EE04C91782 /* FSRash.1 */; };
+		ECA3D26A110A231100A457B0 /* Framework.xcodeproj in Frameworks */ = {isa = PBXBuildFile; fileRef = ECA3D25A110A1ADE00A457B0 /* Framework.xcodeproj */; };
+		ECC4890510FB5D5B00AF05A2 /* FrmTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECC4890410FB5D5B00AF05A2 /* FrmTest.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECA3D25F110A1ADE00A457B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECA3D25A110A1ADE00A457B0 /* Framework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ECA3D0A3110A0F1400A457B0;
+			remoteInfo = Framework;
+		};
+		ECA3D261110A1ADE00A457B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECA3D25A110A1ADE00A457B0 /* Framework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ECA3D129110A101E00A457B0;
+			remoteInfo = FrameworkTest;
+		};
+		ECA3D263110A1AEE00A457B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECA3D25A110A1ADE00A457B0 /* Framework.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = ECA3D0A2110A0F1400A457B0;
+			remoteInfo = Framework;
+		};
+		ECA3D268110A22A900A457B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECA3D25A110A1ADE00A457B0 /* Framework.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = ECA3D0A2110A0F1400A457B0;
+			remoteInfo = Framework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DD76F690486A84900D96B5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				8DD76F6A0486A84900D96B5E /* FSRash.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		08FB7796FE84155DC02AAC07 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 5; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8DD76F6C0486A84900D96B5E /* FSRash */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FSRash; sourceTree = BUILT_PRODUCTS_DIR; };
+		9304768310E24DDA0096BDED /* DevelopmentData.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = DevelopmentData.rtf; sourceTree = "<group>"; };
+		93D8D7F910C44EF100551AAE /* FSRash Documentation.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = "FSRash Documentation.rtf"; sourceTree = "<group>"; };
+		C6859E8B029090EE04C91782 /* FSRash.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = FSRash.1; sourceTree = "<group>"; };
+		ECA3D25A110A1ADE00A457B0 /* Framework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Framework.xcodeproj; path = ../../Framework/Framework/Framework.xcodeproj; sourceTree = SOURCE_ROOT; };
+		ECC488FD10FB5D0E00AF05A2 /* FrameworkTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FrameworkTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECC4890310FB5D5B00AF05A2 /* FrmTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrmTest.h; sourceTree = "<group>"; };
+		ECC4890410FB5D5B00AF05A2 /* FrmTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FrmTest.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD76F660486A84900D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC488FB10FB5D0E00AF05A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA3D26A110A231100A457B0 /* Framework.xcodeproj in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* FSRash */ = {
+			isa = PBXGroup;
+			children = (
+				ECA3D25A110A1ADE00A457B0 /* Framework.xcodeproj */,
+				ECC4890210FB5D4200AF05A2 /* FrameworkTest */,
+				08FB7795FE84155DC02AAC07 /* Source */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = FSRash;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				93CFA05B10C06953008996E8 /* Header */,
+				93CFA05810C0694A008996E8 /* Source */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD76F6C0486A84900D96B5E /* FSRash */,
+				ECC488FD10FB5D0E00AF05A2 /* FrameworkTest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93CFA05810C0694A008996E8 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				08FB7796FE84155DC02AAC07 /* main.cpp */,
+				C6859E8C029090F304C91782 /* Documentation */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		93CFA05B10C06953008996E8 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Header;
+			sourceTree = "<group>";
+		};
+		C6859E8C029090F304C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				C6859E8B029090EE04C91782 /* FSRash.1 */,
+				93D8D7F910C44EF100551AAE /* FSRash Documentation.rtf */,
+				9304768310E24DDA0096BDED /* DevelopmentData.rtf */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+		ECA3D25B110A1ADE00A457B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECA3D260110A1ADE00A457B0 /* libFramework.a */,
+				ECA3D262110A1ADE00A457B0 /* FrameworkTest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECC4890210FB5D4200AF05A2 /* FrameworkTest */ = {
+			isa = PBXGroup;
+			children = (
+				ECC4890310FB5D5B00AF05A2 /* FrmTest.h */,
+				ECC4890410FB5D5B00AF05A2 /* FrmTest.cpp */,
+			);
+			name = FrameworkTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DD76F620486A84900D96B5E /* FSRash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB923108733DC60010E9CD /* Build configuration list for PBXNativeTarget "FSRash" */;
+			buildPhases = (
+				8DD76F640486A84900D96B5E /* Sources */,
+				8DD76F660486A84900D96B5E /* Frameworks */,
+				8DD76F690486A84900D96B5E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECA3D264110A1AEE00A457B0 /* PBXTargetDependency */,
+			);
+			name = FSRash;
+			productInstallPath = "$(HOME)/bin";
+			productName = FSRash;
+			productReference = 8DD76F6C0486A84900D96B5E /* FSRash */;
+			productType = "com.apple.product-type.tool";
+		};
+		ECC488FC10FB5D0E00AF05A2 /* FrameworkTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECC4890110FB5D2D00AF05A2 /* Build configuration list for PBXNativeTarget "FrameworkTest" */;
+			buildPhases = (
+				ECC488FA10FB5D0E00AF05A2 /* Sources */,
+				ECC488FB10FB5D0E00AF05A2 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECA3D269110A22A900A457B0 /* PBXTargetDependency */,
+			);
+			name = FrameworkTest;
+			productName = FrameworkTest;
+			productReference = ECC488FD10FB5D0E00AF05A2 /* FrameworkTest */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "`";
+			};
+			buildConfigurationList = 1DEB923508733DC60010E9CD /* Build configuration list for PBXProject "FSRash" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 08FB7794FE84155DC02AAC07 /* FSRash */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = ECA3D25B110A1ADE00A457B0 /* Products */;
+					ProjectRef = ECA3D25A110A1ADE00A457B0 /* Framework.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				8DD76F620486A84900D96B5E /* FSRash */,
+				ECC488FC10FB5D0E00AF05A2 /* FrameworkTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		ECA3D260110A1ADE00A457B0 /* libFramework.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libFramework.a;
+			remoteRef = ECA3D25F110A1ADE00A457B0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		ECA3D262110A1ADE00A457B0 /* FrameworkTest */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = FrameworkTest;
+			remoteRef = ECA3D261110A1ADE00A457B0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD76F640486A84900D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD76F650486A84900D96B5E /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC488FA10FB5D0E00AF05A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC4890510FB5D5B00AF05A2 /* FrmTest.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECA3D264110A1AEE00A457B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Framework;
+			targetProxy = ECA3D263110A1AEE00A457B0 /* PBXContainerItemProxy */;
+		};
+		ECA3D269110A22A900A457B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Framework;
+			targetProxy = ECA3D268110A22A900A457B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB923208733DC60010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_CURRENT_VERSION = 1.0;
+				GCC_DYNAMIC_NO_PIC = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_GLIBCXX_DEBUG=1",
+					"_GLIBCXX_DEBUG_PEDANTIC=1",
+				);
+				HEADER_SEARCH_PATHS = /desenv/Framework;
+				INSTALL_PATH = /usr/local/bin;
+				LIBRARY_SEARCH_PATHS = (
+					/desenv/Framework/Framework/build/Debug,
+					"$(inherited)",
+					"\"$(SRCROOT)/build/Debug\"",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				OTHER_CFLAGS = "-D_DEBUG";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-D_DEBUG",
+					"$(OTHER_CFLAGS)",
+				);
+				OTHER_LDFLAGS = "-lFramework";
+				PRODUCT_NAME = FSRash;
+				SDKROOT = "";
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = dynamic;
+				STRINGS_FILE_OUTPUT_ENCODING = "UTF-8";
+			};
+			name = Debug;
+		};
+		1DEB923308733DC60010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_CURRENT_VERSION = 1.0;
+				GCC_DYNAMIC_NO_PIC = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				HEADER_SEARCH_PATHS = /desenv/Framework;
+				INSTALL_PATH = /usr/local/bin;
+				LIBRARY_SEARCH_PATHS = (
+					/desenv/Framework/Framework/build/Release,
+					"$(inherited)",
+					"\"$(SRCROOT)/build/Debug\"",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				OTHER_LDFLAGS = "-lFramework";
+				PRODUCT_NAME = FSRash;
+				SDKROOT = "";
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = dynamic;
+				STRINGS_FILE_OUTPUT_ENCODING = "UTF-8";
+			};
+			name = Release;
+		};
+		1DEB923608733DC60010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		1DEB923708733DC60010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		ECC488FF10FB5D0F00AF05A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				HEADER_SEARCH_PATHS = /desenv/Framework;
+				INSTALL_PATH = /usr/local/bin;
+				LIBRARY_SEARCH_PATHS = (
+					/desenv/Framework/Framework/build/Release,
+					"$(inherited)",
+					"\"$(SRCROOT)/build/Debug\"",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				ORDER_FILE = /desenv/Framework/Framework/build/Debug/libFramework.a;
+				OTHER_CFLAGS = "-D_DEBUG";
+				OTHER_LDFLAGS = "-lFramework";
+				PREBINDING = NO;
+				PRODUCT_NAME = FrameworkTest;
+				SDKROOT = "";
+			};
+			name = Debug;
+		};
+		ECC4890010FB5D0F00AF05A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				HEADER_SEARCH_PATHS = /desenv/Framework;
+				INSTALL_PATH = /usr/local/bin;
+				LIBRARY_SEARCH_PATHS = (
+					/desenv/Framework/Framework/build/Release,
+					"$(inherited)",
+					"\"$(SRCROOT)/build/Release\"",
+				);
+				OTHER_LDFLAGS = "-lFramework";
+				PREBINDING = NO;
+				PRODUCT_NAME = FrameworkTest;
+				SDKROOT = "";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB923108733DC60010E9CD /* Build configuration list for PBXNativeTarget "FSRash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB923208733DC60010E9CD /* Debug */,
+				1DEB923308733DC60010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB923508733DC60010E9CD /* Build configuration list for PBXProject "FSRash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB923608733DC60010E9CD /* Debug */,
+				1DEB923708733DC60010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECC4890110FB5D2D00AF05A2 /* Build configuration list for PBXNativeTarget "FrameworkTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECC488FF10FB5D0F00AF05A2 /* Debug */,
+				ECC4890010FB5D0F00AF05A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}
